@@ -1,0 +1,11 @@
+PalWorld Server Hosting
+-----------------------
+What's new:
+- Intelligent start/stop
+	- Detects usage pattern and starts/stops instances at this schedule
+PROOF OF CONCEPT
+----------------
+Servers hosted on AWS
+Compute [Go] [manages compute instances in AWS]
+Backend [Go] [exposes API, handles users, payment, interfaces with AWS]
+Frontend
